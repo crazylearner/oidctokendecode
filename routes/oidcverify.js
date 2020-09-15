@@ -8,8 +8,8 @@ var router = express.Router();
 
 var exchangeUrl = "https://oauth2.googleapis.com/token"
 var grant_type="authorization_code"
-var client_id="457616970060-1md3olpo431l4qtpe5qdcdl883bi1g8s.apps.googleusercontent.com"
-var client_secret="q7a7xzo6MVwvRJdJFQjBp4Gl"
+var client_id="%CLIENT_ID%"
+var client_secret="%CLIENT_SECRET%"
 var redirect_uri="http://localhost:9000/testAPI"
 
 var redirectUIEndpoint = "http://localhost:3000"
